@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/tvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:gravity="end"/>
+    <TextView
+        android:id="@+id/tvout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="end"/>
+
+
+</LinearLayout>
